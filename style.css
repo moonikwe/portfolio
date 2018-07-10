@@ -3,7 +3,6 @@ body{
   min-height: 100vh;
   text-align: center;
   font-family: Andale Mono, monospace;
-  overflow: auto;
 }
 
 img {
@@ -23,7 +22,7 @@ img {
   align-items: center;
   justify-content: center;
   border-collapse:collapse;
-  /*overflow-y: hidden;*/
+  overflow-y: hidden;
 }
   .contents > button {
     width: 310px;
