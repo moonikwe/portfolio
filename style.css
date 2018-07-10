@@ -15,7 +15,7 @@ img {
   margin-top: 0vh;
 }
 
-.contents, .interest-modal-content{
+.contents, .interests-modal-content, .projects-modal-content{
   display: flex;
   flex-wrap: wrap;
   min-height: 10vh;
@@ -64,7 +64,7 @@ img {
 button {
   color: white;
 }
-.interest-modal {
+.interests-modal, .projects-modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -79,7 +79,7 @@ button {
 }
 
 /* Modal Content/Box */
-.interest-modal-content {
+.interests-modal-content, .projects-modal-content {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     /*padding: 20px;*/
@@ -101,7 +101,7 @@ button {
     text-decoration: none;
     cursor: pointer;
 }
-.interest-modal-content > div {
+.interests-modal-content > div, .projects-modal-content > div {
     width: 200px;
     height: 180px;
     background-color: black;
