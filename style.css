@@ -100,6 +100,8 @@ button {
     color: black;
     text-decoration: none;
     cursor: pointer;
+    background-color: black
+    color: white;
 }
 .interests-modal-content > div, .projects-modal-content > div {
     width: 200px;

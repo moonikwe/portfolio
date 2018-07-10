@@ -10,7 +10,7 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal 
 intbtn.onclick = function() {
-	$('body').css('overflow','hidden')
+	// $('body').css('overflow','hidden')
     intmodal.style.display = "block";
 }
 projbtn.onclick = function() {
@@ -19,14 +19,14 @@ projbtn.onclick = function() {
 }
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-	$('body').css('overflow','scroll')
+	// $('body').css('overflow','scroll')
     intmodal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == intmodal) {
-    	$('body').css('overflow','scroll')
+    	// $('body').css('overflow','scroll')
         intmodal.style.display = "none";
     }
 }
